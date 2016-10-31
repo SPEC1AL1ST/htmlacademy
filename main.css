@@ -76,7 +76,7 @@ p {
 }
 .columnlr:last-child {
     float: right;
-    margin-right: 0;
+    margin-right: 50px;
 }
 .footer {
     background: #34495e;
