@@ -57,26 +57,30 @@ p {
     margin-right: 0;
 }
 .columns-three {
-    height: 130px;
-    background: green;
-}
-.column-lr {
     height: 120px;
-    width: 75px;
+}
+.columnlr {
+    height: 110px;
+    width: 70px;
     background: #3498DB;
     margin-right: 10px;
 }
-.column-lr:first-child {
+.columnlr:first-child {
     float: left;
 }
-.column-lr:last-child {
+.column-main {
+    float: left;
+    height: 110px;
+    width: 190px;
+    background: #3498DB;
+}
+.columnlr:last-child {
     float: right;
     margin-right: 0;
 }
-.column-main {
-    height: 120px;
-    width: 200px;
-    background: #3498DB;
+.footer {
+    background: #34495e;
+    height: 35px;
 }
 /*
     Используемые цвета:
